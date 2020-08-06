@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:background="@drawable/login_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_log_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:background="@drawable/chat_log_background"
+        app:stackFromEnd="true"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="11"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp">
+
+        <EditText
+            android:id="@+id/chat_log_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_chat_log"
+            android:gravity="center_vertical"
+            android:hint="@string/enter_message"
+            android:paddingStart="20dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:paddingEnd="3dp"/>
+
+        <ImageButton
+            android:id="@+id/chat_log_send_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/chat_log_send_btn"
+            android:src="@drawable/send_36_white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">sPliT</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="log_in">Log-in</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="facebook">facebook</string>
+    <string name="name">Username</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="todo">TODO</string>
+    <string name="back_to_login_page">Back To Login Page.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="new_person">+</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send">Send</string>
+    <string name="textview">TextView</string>
+    <string name="new_message">New Message</string>
+    <string name="find_your_account">Find your Account</string>
+    <string name="enter_the_e_mail_address_linked_to_your_account">Enter the e-mail address linked to your account</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="send_e_mail">Send e-mail</string>
+    <string name="create_a_password">Create a password</string>
+</resources>

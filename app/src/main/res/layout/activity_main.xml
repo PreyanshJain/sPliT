@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/login_background"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="200dp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:src="@drawable/image_icon2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/log_in_application"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/login_btn_background_reverse"
+                android:text="@string/log_in"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/sign_up_application"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/login_btn_background"
+                android:text="@string/sign_up"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
